@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView intro;
     private Button mPetInfo;
-    private Button mShop;
+    private Button mNote;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        mShop = (Button)findViewById(R.id.Shop);
-        mShop.setOnClickListener(new View.OnClickListener(){
+        mNote = (Button)findViewById(R.id.Note);
+        mNote.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent i = new Intent(

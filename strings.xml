@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="Note">Your note to take care your pet</string>
+    <string name="Pet_Info">Pet Info</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="fish">Fish</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="cat_type">Cat Type In Market</string>
+    <string name="cat_care">How to keep a cat?</string>
+    <string name="dog_type">Dog Type in Market</string>
+    <string name="dog_care">How to keep a dog?</string>
+    <string name="rabbitType">Rabbit type in Market</string>
+    <string name="rabbitCare">How to keep a rabbit?</string>
+    <string name="FishType">Pet Fish type in market</string>
+    <string name="FishCare">How to keep pet fish?</string>
+    <string name="pet_title_hint">Enter your reminder of taking care pet</string>
+    <string name="pet_title_label">Title</string>
+    <string name="pet_detail_label">Details</string>
+    <string name="pet_solved_label">Solved</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

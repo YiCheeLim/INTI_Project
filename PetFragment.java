@@ -30,7 +30,7 @@ public class PetFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View v = inflater.inflate(R.layout.activity_pet,container, false);
+        View v = inflater.inflate(R.layout.activity_fragment,container, false);
 
         mTitleField = (EditText)v.findViewById(R.id.pet_title);
         mTitleField.addTextChangedListener(new TextWatcher() {
@@ -41,7 +41,8 @@ public class PetFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                mPet.setTitle(s.toString());
+                mTitleField = null;
+                PInfo.setTitle(s.toString());
             }
 
             @Override
@@ -59,7 +60,7 @@ public class PetFragment extends Fragment {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 //set the pet's solved property
-                mPet.setSolved(isChecked);
+                PInfo.setSolved(isChecked);
             }
         });
 

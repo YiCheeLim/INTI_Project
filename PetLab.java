@@ -26,7 +26,7 @@ public class PetLab {
         for(int i = 0; i < 100; i++){
             PInfo pet = new PInfo();
             PInfo.setTitle("Pet #" + i);
-            PInfo.setSolved(i%2 == 0);
+            PInfo.setSolved(i%2 == 0);//Every other one
             mPet.add(pet);
         }
     }

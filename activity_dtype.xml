@@ -7,31 +7,66 @@
     android:layout_height="match_parent"
     tools:context="intiproject.project.DType">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="24dp"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/dogBF"
+            android:textStyle="bold"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:padding="24dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/Husky"
+            android:text="Husky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/GRetriever"
+            android:text="Golden Retriever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/Dalmatian"
+            android:text="Dalmatian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/GShepherd"
+            android:text="German Shepherd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/collie"
+            android:text="Collie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/Poodle"
+            android:text="Poodle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/JRussell"
+            android:text="Jack Russell Terrier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/Rottweiler"
+            android:text="Rottweiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/more"
+            android:text="More Choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+    </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Hello there\n"/>
-
-            </ListView>
-
-        </LinearLayout>
-
-    </FrameLayout>
 
 
 </android.support.constraint.ConstraintLayout>
